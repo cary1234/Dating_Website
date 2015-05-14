@@ -1,0 +1,84 @@
+.red, .red a {
+    color: #c72200;
+}
+
+.spacer {
+    margin-top: 40px; /* define margin as you see fit */
+}
+
+/* Make image responsive to tables */
+.img-responsive{
+    width:100%;
+}
+
+
+
+
+
+
+/* Panel Tab */
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #009;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #00F;
+    background-color: #00F;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #00F;
+    border-bottom-color: #00F;
+}
+/* End of Panel Tabs */
+
+/* Body BG color 
+body {
+background: #7d8189; 
+background: -moz-linear-gradient(-45deg,  #7d8189 21%, #28343b 84%); 
+background: -webkit-gradient(linear, left top, right bottom, color-stop(21%,#7d8189), color-stop(84%,#28343b)); 
+background: -webkit-linear-gradient(-45deg,  #7d8189 21%,#28343b 84%); 
+background: -o-linear-gradient(-45deg,  #7d8189 21%,#28343b 84%);
+background: -ms-linear-gradient(-45deg,  #7d8189 21%,#28343b 84%); 
+background: linear-gradient(135deg,  #7d8189 21%,#28343b 84%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d8189', endColorstr='#28343b',GradientType=1 ); 
+}
+/* End of Login BG Color */
+
+/* Navbar BG Color */
+.navbar_bg {
+    background: #f3c5bd; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #f3c5bd 0%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f3c5bd), color-stop(51%,#ea2803), color-stop(75%,#ff6600), color-stop(100%,#c72200)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #f3c5bd 0%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #f3c5bd 0%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #f3c5bd 0%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #f3c5bd 0%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+/* End of Navbar BG Color */
